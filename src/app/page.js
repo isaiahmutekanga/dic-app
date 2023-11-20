@@ -44,9 +44,9 @@ export default function Home() {
 
   return (
     <div>
-      <main className="flex min-h-screen flex-col items-center justify-between p-40">
+      <main className="flex min-h-screen flex-col items-center p-40">
         <h1 className="mb-4">Just OK Dictionary App</h1>
-        <div>
+        <div className="p-5">
           {error ? (
             <p>{error}</p>
           ) : count && count[0] && randomIndex !== null ? (
